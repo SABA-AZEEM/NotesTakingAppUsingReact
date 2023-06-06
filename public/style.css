@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color:#a09a9a;
+}
+header{
+    background-color: rgb(28, 41, 41);
+    height: 100px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+}
+header h1{
+    color: white;
+    padding: 30px 50px;
+}
+form{
+    position: relative;
+    width: 480px;
+    margin: 30px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.3);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 18px;
+  resize: none;
+}
+form button{
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    right:18px;
+    bottom: -18px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(28, 41, 41);
+    color: white;cursor: pointer;
+    width: 36px;
+    height: 36px; 
+}
+.note{
+    background-color: white;
+    width: 250px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 3px 4px 5px rgba(0,0,0,0.3);
+    padding: 10px;
+    float: left;
+}
+.note h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.note p{
+    color: rgba(0,0,0,0.8);
+}
+.note button{
+    border: none;
+    outline: none;
+    float: right;
+    background-color: rgb(28, 41, 41);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    font-weight: 500;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+}
+footer p{
+    color: #5f4a4a;
+}
